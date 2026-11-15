@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pc</title>
+    <style>
+        div{
+            border: 5px solid rgb(255, 255, 255);
+            width: 500px;
+            height: 600px;
+            margin-left: 400px;
+            margin-top: 50px;
+            text-align: center;
+            padding: 30px;
+            padding-bottom: 5px;
+            border-radius: 30px;
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+        .product-image {
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            border-top-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+        h3{
+            color: darkblue;
+        }
+        p{
+            text-align: justify;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        h5{
+            position:absolute;
+            bottom: 50px;
+            padding-bottom: 5px;
+            font-size: 20px;
+        }
+        input[type=submit] {
+            background-color: rgb(5, 162, 234);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            float: right;
+            position: absolute;
+            bottom: 80px;
+            right: 500px;
+            
+        }
+        input[type=submit]:hover {
+            transform: scale(1.05);
+        }
+        body {
+            background-color: lightblue;
+            color: white;
+        }
+        @media only screen and (max-width: 600px) {
+            div {
+                width: 80%;
+                height: auto;
+                margin-left: 5%;
+                margin-top: 20px;
+                padding: 20px;
+                margin-bottom: 20px;
+                margin-right: 5%;
+            }
+            @media only screen and (max-width:700px) {
+                body {
+                    background-color: lightgreen;
+                    
+                }
+            }
+            h5 {
+                position: static;
+                margin-top: 10px;
+            }
+            input[type=submit] {
+                position: static;
+                float: none;
+                display: block;
+                margin: 20px auto 0 auto;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Y8b4W2q25AnAtl_WI4xDX5c_jvVXyzMkRXiAOo6EhQ&s=10" alt="Custom Windows 11 PC" class="product-image">
+        <h3>custom windows 11 pc</h3>
+        <p>this PC is an ultra-high-end powerhouse driven by an AMD Ryzen 9 9950X3D processor paired with 128GB of DDR5 RAM for unmatched speed and heavy multitasking. For graphics, 4K gaming, and intensive AI workloads, it runs on an NVIDIA GeForce RTX 5090 with 32GB of GDDR7 VRAM, while all data is stored on a blazing-fast 4TB PCIe Gen 5.0 NVMe SSD. The entire system is built on a flagship X870E motherboard with custom liquid cooling and operates smoothly on Windows 11 Pro</p>
+        <h5>price: $5,000</h5>
+        <form action="https://www.amazon.com/">
+        <input type="submit" value="buy now">
+        </form>
+    </div>
+</body>
+</html>
